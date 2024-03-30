@@ -1,38 +1,23 @@
----
-name: Bug report
-about: Create a report to help us improve
-title: ''
-labels: ''
-assignees: ''
 
----
+Bug Report 2: Incorrect Calculation in Billing Module
+Software:
+SuperBilling Software v5.0.3
 
-**Describe the bug**
-A clear and concise description of what the bug is.
+Bug Description:
+In the billing module of SuperBilling Software, the total amount is calculated incorrectly. It seems to be adding an extra $10 to each transaction.
 
-**To Reproduce**
-Steps to reproduce the behavior:
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
+Steps to Reproduce:
+Open SuperBilling Software.
+Navigate to the billing module.
+Create a new invoice with multiple line items.
+Observe the total amount calculation.
+Additional Information:
+Device/Environment: Windows 10
+Screenshots/Recordings: N/A
+Logs/Error Messages: No error messages displayed.
 
-**Expected behavior**
-A clear and concise description of what you expected to happen.
 
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
+Bug 2 Severity:
+Label: Medium
 
-**Desktop (please complete the following information):**
- - OS: [e.g. iOS]
- - Browser [e.g. chrome, safari]
- - Version [e.g. 22]
-
-**Smartphone (please complete the following information):**
- - Device: [e.g. iPhone6]
- - OS: [e.g. iOS8.1]
- - Browser [e.g. stock browser, safari]
- - Version [e.g. 22]
-
-**Additional context**
-Add any other context about the problem here.
+Justification: While this bug affects the accuracy of billing calculations, it does not prevent users from using the software entirely. However, it can lead to financial discrepancies and may impact a subset of users who rely on the billing module, warranting a medium severity rating.
